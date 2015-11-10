@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Degre3 {
+	
+	private static Scanner scanner = new Scanner(System.in);
+	int a;
+	int b;
+	int c;
+	double x;
+	
+	public void main(String[] args) {
+	
+		System.out.print("Entrez a (int) : ");
+		this.a = scanner.nextln();
+	
+		((a+b)/2)x3 + (a+b)2x2 + a + b + c 
+	}
+
+}

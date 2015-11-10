@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Degre3 {
+	
+	private static Scanner scanner = new Scanner(System.in);
+	int a;
+	int b;
+	int c;
+	double x;
+	
+	public void main(String[] args) {
+	
+		System.out.print("Entrez a (int) : ");
+		this.a = scanner.nextInt();
+		System.out.print("Entrez b (int) : ");
+		this.b = scanner.nextInt();
+		System.out.print("Entrez c (int) : ");
+		this.c = scanner.nextInt();
+		System.out.print("Entrez x (double) : ");
+		this.x = scanner.nextDouble();
+	
+		double total = ((this.a + this.b)/2.) * this.x * this.x * this.x + (a+b)2x2 + a + b + c; 
+		
+		System.out.println("La valeur du polynôme est : " + total)
+	}
+
+}

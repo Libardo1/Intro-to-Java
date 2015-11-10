@@ -1,0 +1,15 @@
+
+public class IMC {
+	public static void main(String[] args) {
+		double poids = 72;
+		double taille = 1.9;
+		
+		double imc = poids / (taille * taille);
+		
+		System.out.println("Pour une taille de " + taille
+							+ "et un poids de " + poids
+							+ "le IMC est de "+ imc);
+		
+	}
+
+}
